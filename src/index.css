@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.album-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.album-item {
+  margin-bottom: 10px;
+}
+
+.delete-btn,
+.edit-btn {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.add-input,
+.edit-input {
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-btn,
+.save-btn,
+.cancel-btn {
+  font-size: 16px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.save-btn {
+  background-color: #0f9d58;
+}
+
+.cancel-btn {
+  background-color: #db4437;
+}
